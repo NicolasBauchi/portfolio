@@ -16,18 +16,18 @@
         rel="stylesheet">
 </head>
 
-<body class="container-fluid">
+<body>
 
     <!--Header-->
-    <header class="row">
+    <header class="">
 
         <!--Nav bar-->
-        <nav class="col-12 d-flex bg-dark" id="navbar-1">
+        <nav class=" d-flex bg-dark" id="navbar-1">
             <div class="mx-auto my-auto ">
                 <!-- Títulos de Secciones-->
-                <span class="fw-bold mx-2 fs-4 "><a href="">Portfolio</a></span>
-                <span class="fw-bold mx-2 fs-4 "><a href="">About</a></span>
-                <span class="fw-bold mx-2 fs-4 "><a href="">Contact</a></span>
+                <span class="fw-bold mx-2 fs-4 "><a href="#title_portfolio">Portfolio</a></span>
+                <span class="fw-bold mx-2 fs-4 "><a href="title_about">About</a></span>
+                <span class="fw-bold mx-2 fs-4 "><a href="title_contact">Contact</a></span>
             </div>
         </nav>
 
@@ -39,10 +39,10 @@
 
 
     <!--Contenido-->
-    <main class="row">
-        
+    <main class="container-fluid">
+
         <!--Main content-->
-        <div class="col-12  main-content-nb bg-verde2">
+        <section class="row  main-content-nb bg-verde2">
 
 
             <div class="mt-5 pt-5 row">
@@ -60,22 +60,67 @@
             </div>
 
 
-        </div>
+        </section>
 
         <!--Portfolio-->
-        <div class="col-12">
+        <section class="row bg-white py-5">
 
-        </div>
+            <!--Contenedor imagenes-->
+            <div class="row mx-auto py-5" style="width: 70%;">
+
+                <div class="col-12 d-flex justify-content-center mb-4">
+                    <a name="title_portfolio"></a>
+                    <h1 class="text-uppercase texto-verde2 fuente-impact" style="letter-spacing: 2px;">Portfolio</h1>
+                </div>
+
+                <div class="col-6 col-md-4 mb-3 d-flex justify-content-center ">
+                    <div class="scale-efect-img rounded-3"><img src="http://placekitten.com/350/200" alt=""
+                            class="img-fluid"></div>
+                </div>
+                <div class="col-6 col-md-4 mb-3 d-flex justify-content-center ">
+                    <div class="scale-efect-img rounded-3"><img src="http://placekitten.com/350/200" alt=""
+                            class="img-fluid"></div>
+                </div>
+                <div class="col-6 col-md-4 mb-3 d-flex justify-content-center ">
+                    <div class="scale-efect-img rounded-3"><img src="http://placekitten.com/350/200" alt=""
+                            class="img-fluid"></div>
+                </div>
+                <div class="col-6 col-md-4 mb-3 d-flex justify-content-center ">
+                    <div class="scale-efect-img rounded-3"><img src="http://placekitten.com/350/200" alt=""
+                            class="img-fluid"></div>
+                </div>
+                <div class="col-6 col-md-4 mb-3 d-flex justify-content-center ">
+                    <div class="scale-efect-img rounded-3"><img src="http://placekitten.com/350/200" alt=""
+                            class="img-fluid"></div>
+                </div>
+                <div class="col-6 col-md-4 mb-3 d-flex justify-content-center ">
+                    <div class="scale-efect-img rounded-3"><img src="http://placekitten.com/350/200" alt=""
+                            class="img-fluid"></div>
+                </div>
+
+
+            </div>
+
+
+        </section>
 
         <!--About-->
-        <div class="col-12">
+        <section class="row bg-verde2 py-5">
 
-        </div>
+            <div class="col-12 d-flex justify-content-center mb-4">
+                <a name="title_about"></a>
+                <h1 class="text-uppercase text-white fuente-impact" style="letter-spacing: 2px;">About me</h1>
+            </div>
+        </section>
 
         <!--Contact-->
-        <div class="col-12">
+        <section class="row bg-white py-5">
 
-        </div>
+            <div class="col-12 d-flex justify-content-center mb-4">
+                <a name="title_contact"></a>
+                <h1 class="text-uppercase texto-verde2 fuente-impact" style="letter-spacing: 2px;">Contact me</h1>
+            </div>
+        </section>
     </main>
 
 

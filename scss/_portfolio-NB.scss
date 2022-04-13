@@ -68,6 +68,11 @@
 }
 .scale-efect-img img:hover {
   transform: scale(110%);
+  filter: brightness(1.2);
+}
+//DIMENSIONES DE IMAGENES
+.box-img-proyect{
+  border-radius: 0.5rem;
 }
 
 //header nav
