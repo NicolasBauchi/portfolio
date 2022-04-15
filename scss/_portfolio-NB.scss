@@ -40,7 +40,9 @@
   right: 0;
   background-color: rgba(0, 0, 0, 0.4);
 }
-.parallax img, h1, div {
+.parallax img,
+h1,
+div {
   color: #fff;
   position: relative;
 }
@@ -67,10 +69,10 @@
 }
 .scale-efect-img img:hover {
   transform: scale(110%);
-  filter: brightness(1.2);
+  filter: brightness(1.1);
 }
 //DIMENSIONES DE IMAGENES
-.box-img-proyect{
+.box-img-proyect {
   border-radius: 0.5rem;
 }
 
@@ -80,7 +82,6 @@
   padding-bottom: 10px;
   padding-top: 10px;
 }
-
 
 #navbar-1 span a {
   text-decoration: none;
@@ -92,35 +93,128 @@
   color: #66c1bf;
   transition: 0.3s ease-in;
 }
-.main-content-nb{
-    height: 100vh;
+.main-content-nb {
+  height: 100vh;
 }
-.texto-grande{
-  font-size: 8rem;
-}
-.menu-horizontal{
+
+//Efecto item list
+.menu-horizontal {
   list-style: none;
   display: flex;
   justify-content: space-around;
 }
-.menu-horizontal > li{
+.menu-horizontal > li {
   display: block;
   padding: 20px 40px;
   color: white;
   text-decoration: none;
 }
 
-.menu-vertical{
+.menu-vertical {
   position: absolute;
   display: none;
   list-style: none;
   width: 400px;
-  background-color: rgba(0,0,0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
-.menu-horizontal li:hover .menu-vertical{
-  display: flex;
+.menu-horizontal li:hover .menu-vertical {
+  display: block;
 }
-.menu-vertical li:hover{
-background-color: black;
-display: flex;
+.menu-vertical li:hover {
+  background-color: black;
+  display: block;
 }
+// FIN Efecto item list
+
+//Redes sociales
+.color-linkedin {
+  width: 210px;
+  color: white;
+  background-color: rgb(50, 50, 50);
+  text-decoration: none;
+  box-shadow: 1px 10px 25px rgba(0, 0, 0, 0.6);
+}
+.color-linkedin p {
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+}
+
+.color-linkedin:hover {
+  color: white;
+  background-color: #0e76a8;
+  filter: brightness(1.1);
+  transition: background-color 0.4s ease-in;
+  box-shadow: 1px 10px 35px rgba(0, 0, 0, 0.8);
+}
+
+.color-github {
+  width: 210px;
+  color: white;
+  background-color: rgb(50, 50, 50);
+  text-decoration: none;
+  box-shadow: 1px 10px 25px rgba(0, 0, 0, 0.6);
+}
+.color-github p {
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+}
+
+.color-github:hover {
+  color: white;
+  background-color: black;
+  filter: brightness(1.1);
+  transition: background-color 0.4s ease-in;
+  box-shadow: 1px 10px 35px rgba(0, 0, 0, 0.8);
+}
+
+.color-correo {
+  width: 210px;
+  color: white;
+  background-color: rgb(50, 50, 50);
+  text-decoration: none;
+  box-shadow: 1px 10px 25px rgba(0, 0, 0, 0.6);
+}
+.color-correo p {
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+}
+
+.color-correo:hover {
+  color: white;
+  background-color: red;
+  filter: brightness(1.1);
+  transition: background-color 0.4s ease-in;
+  box-shadow: 1px 10px 35px rgba(0, 0, 0, 0.8);
+}
+
+//Fin redes sociales
+.gradiente-fondo-verde2 {
+  background: linear-gradient(180deg, white, #66c1bf);
+}
+
+.tamaño-pantalla {
+  min-height: 100vh;
+}
+
+
+//--------------------------------------
+//Media Querys
+@media (min-width: 0px) and (max-width: 767px) {
+  .hr-nb {
+    align-self: center;
+    max-width: 300px;
+  }
+  .titulo-main {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .hr-nb {
+    max-width: 500px;
+  }
+  .titulo-main {
+    font-size: 8rem;
+  }
+}
+//Fin media querys
