@@ -8475,31 +8475,29 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos], [data-aos][data-aos][data-
 
 .parallax {
   background: #fff fixed no-repeat 50% 50%;
-  background-size: cover; }
-
-#banner {
-  background-image: url("../imagenes/alquiler-quirofano-c.jpg");
-  padding: 70px 8px;
+  background-size: cover;
+  padding: 70px 0px;
   text-align: center;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative; }
 
-#banner::before {
+#coffe-laptop {
+  background-image: url("../imgs/escritorio-pc.jpg"); }
+
+.parallax::before {
   content: "";
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.6); }
+  background-color: rgba(0, 0, 0, 0.4); }
 
-#banner h1, #banner .h1 {
-  font-size: 50px;
+.parallax img, h1, .h1, div {
   color: #fff;
-  position: relative;
-  text-transform: uppercase; }
+  position: relative; }
 
 .fuente-impact {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; }
@@ -8537,8 +8535,36 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos], [data-aos][data-aos][data-
   font-family: "Roboto, sans-serif"; }
 
 #navbar-1 span a:hover {
-  color: grey;
+  color: #66c1bf;
   transition: 0.3s ease-in; }
 
 .main-content-nb {
   height: 100vh; }
+
+.texto-grande {
+  font-size: 8rem; }
+
+.menu-horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around; }
+
+.menu-horizontal > li {
+  display: block;
+  padding: 20px 40px;
+  color: white;
+  text-decoration: none; }
+
+.menu-vertical {
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.menu-horizontal li:hover .menu-vertical {
+  display: flex; }
+
+.menu-vertical li:hover {
+  background-color: black;
+  display: flex; }
