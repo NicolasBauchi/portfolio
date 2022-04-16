@@ -8670,7 +8670,7 @@ div {
   .rectangulo-contacto {
     max-width: 650px; }
   .contenido-about {
-    min-height: 12rem;
+    height: 500px;
     font-size: 1.2rem; } }
 
 @keyframes ancho-nb {
