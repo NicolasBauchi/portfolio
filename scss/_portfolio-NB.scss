@@ -196,6 +196,11 @@ div {
   min-height: 100vh;
 }
 
+.efecto-nb:hover {
+  animation-duration: 3s;
+  animation-name: ancho-nb;
+  animation-iteration-count: infinite;
+}
 
 //--------------------------------------
 //Media Querys
@@ -218,3 +223,17 @@ div {
   }
 }
 //Fin media querys
+
+//animaciones
+@keyframes ancho-nb {
+  from {
+    transform: scaleX(1);
+  }
+  60% {
+    transform: scaleX(1.05);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+

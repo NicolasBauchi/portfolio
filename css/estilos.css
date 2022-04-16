@@ -8628,6 +8628,11 @@ div {
 .tamaño-pantalla {
   min-height: 100vh; }
 
+.efecto-nb:hover {
+  animation-duration: 3s;
+  animation-name: ancho-nb;
+  animation-iteration-count: infinite; }
+
 @media (min-width: 0px) and (max-width: 767px) {
   .hr-nb {
     align-self: center;
@@ -8640,3 +8645,11 @@ div {
     max-width: 500px; }
   .titulo-main {
     font-size: 8rem; } }
+
+@keyframes ancho-nb {
+  from {
+    transform: scaleX(1); }
+  60% {
+    transform: scaleX(1.05); }
+  to {
+    transform: scaleX(1); } }
