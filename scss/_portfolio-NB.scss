@@ -187,6 +187,12 @@ div {
   box-shadow: 1px 10px 35px rgba(0, 0, 0, 0.8);
 }
 
+.rectangulo-contacto{
+  height: 180px;
+  max-width: 650px;
+  border-radius: 1rem;
+}
+
 //Fin redes sociales
 .gradiente-fondo-verde2 {
   background: linear-gradient(180deg, white, #66c1bf);
@@ -202,6 +208,7 @@ div {
   animation-iteration-count: infinite;
 }
 
+
 //--------------------------------------
 //Media Querys
 @media (min-width: 0px) and (max-width: 767px) {
@@ -212,6 +219,15 @@ div {
   .titulo-main {
     font-size: 5rem;
   }
+  .rectangulo-contacto{
+    max-width: 23rem;
+  }
+  .rectangulo-contacto img{
+    max-width: 8rem;
+  }
+  .rectangulo-contacto a{
+    max-width: 10rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -220,6 +236,9 @@ div {
   }
   .titulo-main {
     font-size: 8rem;
+  }
+  .rectangulo-contacto{
+    max-width: 650px;
   }
 }
 //Fin media querys

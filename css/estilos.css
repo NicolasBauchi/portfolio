@@ -8622,6 +8622,11 @@ div {
   transition: background-color 0.4s ease-in;
   box-shadow: 1px 10px 35px rgba(0, 0, 0, 0.8); }
 
+.rectangulo-contacto {
+  height: 180px;
+  max-width: 650px;
+  border-radius: 1rem; }
+
 .gradiente-fondo-verde2 {
   background: linear-gradient(180deg, white, #66c1bf); }
 
@@ -8638,13 +8643,21 @@ div {
     align-self: center;
     max-width: 300px; }
   .titulo-main {
-    font-size: 5rem; } }
+    font-size: 5rem; }
+  .rectangulo-contacto {
+    max-width: 23rem; }
+  .rectangulo-contacto img {
+    max-width: 8rem; }
+  .rectangulo-contacto a {
+    max-width: 10rem; } }
 
 @media (min-width: 768px) {
   .hr-nb {
     max-width: 500px; }
   .titulo-main {
-    font-size: 8rem; } }
+    font-size: 8rem; }
+  .rectangulo-contacto {
+    max-width: 650px; } }
 
 @keyframes ancho-nb {
   from {
