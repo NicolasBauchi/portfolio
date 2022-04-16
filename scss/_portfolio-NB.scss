@@ -187,13 +187,14 @@ div {
   box-shadow: 1px 10px 35px rgba(0, 0, 0, 0.8);
 }
 
-.rectangulo-contacto{
+.rectangulo-contacto {
   height: 180px;
   max-width: 650px;
   border-radius: 1rem;
 }
 
 //Fin redes sociales
+
 .gradiente-fondo-verde2 {
   background: linear-gradient(180deg, white, #66c1bf);
 }
@@ -208,6 +209,14 @@ div {
   animation-iteration-count: infinite;
 }
 
+.contenido-about {
+  border: 2px solid white;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px 5px;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.8);
+}
 
 //--------------------------------------
 //Media Querys
@@ -219,14 +228,19 @@ div {
   .titulo-main {
     font-size: 5rem;
   }
-  .rectangulo-contacto{
+  .rectangulo-contacto {
     max-width: 23rem;
   }
-  .rectangulo-contacto img{
+  .rectangulo-contacto img {
     max-width: 8rem;
   }
-  .rectangulo-contacto a{
+  .rectangulo-contacto a {
     max-width: 10rem;
+  }
+
+  .contenido-about {
+    min-height: 22rem;
+    font-size: 1rem;
   }
 }
 
@@ -237,8 +251,12 @@ div {
   .titulo-main {
     font-size: 8rem;
   }
-  .rectangulo-contacto{
+  .rectangulo-contacto {
     max-width: 650px;
+  }
+  .contenido-about {
+    min-height: 12rem;
+    font-size: 1.2rem;
   }
 }
 //Fin media querys
@@ -255,4 +273,3 @@ div {
     transform: scaleX(1);
   }
 }
-
