@@ -200,7 +200,7 @@ div {
 }
 
 .tamaño-pantalla {
-  min-height: 100vh;
+  min-height: 100vh+10vh;
 }
 
 .efecto-nb:hover {
@@ -217,6 +217,32 @@ div {
   font-family: "Montserrat", sans-serif;
   box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.8);
 }
+//efecto vidrio
+.glass-effect-nb{
+  border-radius: 1rem;
+background-color: #ffffff10;
+backdrop-filter: blur(4px);
+}
+//Efecto boton pulso
+.boton-pulso-nb {
+  display: inline-block;
+  background-color: rgb(95, 95, 95);
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 20px 50px;
+  border: 4px solid #66c1bf;
+  border-radius: 10px;
+}
+.boton-pulso-nb:hover {
+  animation: pulsar 2s ease-in-out;
+}
+@keyframes pulsar {
+  0% {
+    box-shadow: 0 0 35px #5ddcff, 0 0 25px #66c1bf;
+  }
+}
+//FIN Efecto boton pulso
 
 //--------------------------------------
 //Media Querys
