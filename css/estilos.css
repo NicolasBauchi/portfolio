@@ -8668,6 +8668,17 @@ div {
   0% {
     box-shadow: 0 0 35px #5ddcff, 0 0 25px #66c1bf; } }
 
+.grid-nb {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
+  column-gap: 5px; }
+
+.efecto-colorear-nb {
+  filter: saturate(0); }
+
+.efecto-colorear-nb:hover {
+  filter: saturate(1); }
+
 @media (min-width: 0px) and (max-width: 767px) {
   .hr-nb {
     align-self: center;
