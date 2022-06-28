@@ -8474,6 +8474,11 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos], [data-aos][data-aos][data-
 .bg-verde2-trans {
   background-color: rgba(103, 193, 191, 0.85); }
 
+.items-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
 .parallax {
   background: #fff fixed no-repeat 50% 50%;
   background-size: cover;
@@ -8673,11 +8678,23 @@ div {
   grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
   column-gap: 5px; }
 
+.foot-er {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 .efecto-colorear-nb {
   filter: saturate(0); }
 
 .efecto-colorear-nb:hover {
   filter: saturate(1); }
+
+.efecto-colorear-nb-negro {
+  filter: contrast(0.4); }
+
+.efecto-colorear-nb-negro:hover {
+  filter: contrast(1); }
 
 @media (min-width: 0px) and (max-width: 767px) {
   .hr-nb {

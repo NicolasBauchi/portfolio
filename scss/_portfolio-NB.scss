@@ -16,6 +16,11 @@
 .bg-verde2-trans {
   background-color: hsla(179, 42%, 58%, 0.85rem);
 }
+.items-contacto{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
 //Efecto parallax
 .parallax {
   background: #fff fixed no-repeat 50% 50%;
@@ -252,15 +257,31 @@ div {
 }
 //Fin grid auto fit
 
-//efecto colorear
-.efecto-colorear-nb{
-filter: saturate(0);
+//Footer
+.foot-er{
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.efecto-colorear-nb:hover{
+//Fin footer
+
+//efecto colorear
+.efecto-colorear-nb {
+  filter: saturate(0);
+}
+.efecto-colorear-nb:hover {
   filter: saturate(1);
-  }
+}
 
+.efecto-colorear-nb-negro{
 
+filter: contrast(0.4);
+}
+
+.efecto-colorear-nb-negro:hover{
+  filter: contrast(1);
+}
 
 //--------------------------------------
 //Media Querys
@@ -286,10 +307,6 @@ filter: saturate(0);
     min-height: 22rem;
     font-size: 1rem;
   }
-
-
-
-
 }
 
 @media (min-width: 768px) {
