@@ -16,10 +16,10 @@
 .bg-verde2-trans {
   background-color: hsla(179, 42%, 58%, 0.85rem);
 }
-.items-contacto{
-display: flex;
-flex-direction: column;
-justify-content: center;
+.items-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 //Efecto parallax
 .parallax {
@@ -81,23 +81,6 @@ div {
   border-radius: 0.5rem;
 }
 
-//header nav
-#navbar-1 {
-  height: 70px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
-#navbar-1 span a {
-  text-decoration: none;
-  color: white;
-  letter-spacing: 1px;
-  font-family: "Roboto, sans-serif";
-}
-#navbar-1 span a:hover {
-  color: #66c1bf;
-  transition: 0.3s ease-in;
-}
 .main-content-nb {
   height: 100vh;
 }
@@ -258,7 +241,7 @@ div {
 //Fin grid auto fit
 
 //Footer
-.foot-er{
+.foot-er {
   min-height: 80px;
   display: flex;
   align-items: center;
@@ -274,13 +257,26 @@ div {
   filter: saturate(1);
 }
 
-.efecto-colorear-nb-negro{
-
-filter: contrast(0.4);
+.efecto-colorear-nb-negro {
+  filter: contrast(0.4);
 }
 
-.efecto-colorear-nb-negro:hover{
+.efecto-colorear-nb-negro:hover {
   filter: contrast(1);
+}
+
+//Navbar nico
+.nav-nb {
+  background-color: #0e76a8;
+}
+
+.links-nb {
+  text-decoration: none;
+  color: white;
+}
+.links-nb:hover {
+  color: rgb(14, 118, 168);
+  text-shadow: 2px 5px 13px rgba(35, 146, 197, 0.68);
 }
 
 //--------------------------------------

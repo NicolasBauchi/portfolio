@@ -8530,21 +8530,6 @@ div {
 .box-img-proyect {
   border-radius: 0.5rem; }
 
-#navbar-1 {
-  height: 70px;
-  padding-bottom: 10px;
-  padding-top: 10px; }
-
-#navbar-1 span a {
-  text-decoration: none;
-  color: white;
-  letter-spacing: 1px;
-  font-family: "Roboto, sans-serif"; }
-
-#navbar-1 span a:hover {
-  color: #66c1bf;
-  transition: 0.3s ease-in; }
-
 .main-content-nb {
   height: 100vh; }
 
@@ -8695,6 +8680,17 @@ div {
 
 .efecto-colorear-nb-negro:hover {
   filter: contrast(1); }
+
+.nav-nb {
+  background-color: #0e76a8; }
+
+.links-nb {
+  text-decoration: none;
+  color: white; }
+
+.links-nb:hover {
+  color: #0e76a8;
+  text-shadow: 2px 5px 13px rgba(35, 146, 197, 0.68); }
 
 @media (min-width: 0px) and (max-width: 767px) {
   .hr-nb {
