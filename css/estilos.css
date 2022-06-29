@@ -8692,6 +8692,19 @@ div {
   color: #0e76a8;
   text-shadow: 2px 5px 13px rgba(35, 146, 197, 0.68); }
 
+.formacion-group-cards ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center; }
+
+.formacion-group-cards ul li {
+  list-style: none;
+  margin: 20px; }
+
+.formacion-group-cards ul li a {
+  text-decoration: none; }
+
 @media (min-width: 0px) and (max-width: 767px) {
   .hr-nb {
     align-self: center;
